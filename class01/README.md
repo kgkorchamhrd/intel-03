@@ -51,7 +51,7 @@
 | 09 LeeHyeonJong (Lee8735) | n/a | - | - | - | - | - | max5982 |
 | 10 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 11 JeongJiMin (chipmunk-tail) | n/a | - | - | - | - | - | max5982 |
-| 12 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 12 ParkWeonSeok (abcde) | n/a | - | - | - | - | - | max5982 |
 | 13 KangDongSu (buskingsue) | n/a | - | - | - | - | - | max5982 |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 15 ChoiEunTaek (abcde) | n/a | - | - | - | - | - | max5982 |
