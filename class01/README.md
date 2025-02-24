@@ -53,7 +53,7 @@
 | 12 ParkWeonSeok (abcde) | n/a | - | - | - | - | - | max5982 |
 | 13 KangDongSu (buskingsue) | n/a | - | - | - | - | - | max5982 |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 15 ChoiEunTaek (abcde) | n/a | - | - | - | - | - | max5982 |
+| 15 JojJaeSang (jo5862) | n/a | - | - | - | - | - | max5982 |
 | 16 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 17 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 18 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
