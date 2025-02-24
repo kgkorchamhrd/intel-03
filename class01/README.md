@@ -39,7 +39,6 @@
 
 | 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | HW#4 | HW#5 | Reviewer |
 |-------------------------------|---------|------|------|------|------|------|----------|
-
 | 01 KimKeonHwi (vandaliaaa) | n/a | - | - | - | - | - | max5982 |
 | 02 KimGwanWoo  (KGW0128) | n/a | - | - | - | - | - | max5982 |
 | 03 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
