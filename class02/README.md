@@ -49,7 +49,7 @@
 | 13 KangDongSu (buskingsue) | n/a | - | - | - | - | litcoder |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 16 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 16 Yunseunggun (sgyun96) | n/a | - | - | - | - | litcoder |
 | 17 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 18 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 19 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
