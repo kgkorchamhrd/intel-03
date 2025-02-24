@@ -33,10 +33,9 @@
 
 | 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | Final | Reviewer |
 |-------------------------------|---------|------|------|------|-------|----------|
-
 | 01 KimKeonHwi(vandaliaaa) | n/a | - | - | - | - | litcoder |
 | 02 KimGwanWoo  (KGW0128) | n/a | - | - | - | - | litcoder |
-| 03 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 03 KimJungHun (Raphaelkim96) | n/a | - | - | - | - | litcoder |
 | 04 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 05 ParkHyunKeun (parkhk994) | n/a | - | - | - | - | litcoder |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
@@ -48,9 +47,9 @@
 | 12 ParkWeonSeok (abcde) | n/a | - | - | - | - | litcoder |
 | 13 KangDongSu (buskingsue) | n/a | - | - | - | - | litcoder |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 15 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 16 Yunseunggun (sgyun96) | n/a | - | - | - | - | litcoder |
-| 17 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 15 JoJaeSang (jo5862) | n/a | - | - | - | - | litcoder |
+| 16 ChoiEunTaek (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 17 Yunseunggun (sgyun96) | n/a | - | - | - | - | litcoder |
 | 18 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 19 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 20 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
