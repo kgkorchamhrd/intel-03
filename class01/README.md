@@ -41,7 +41,7 @@
 |-------------------------------|---------|------|------|------|------|------|----------|
 | 01 KimKeonHwi (vandaliaaa) | n/a | - | - | - | - | - | max5982 |
 | 02 KimGwanWoo  (KGW0128) | n/a | - | - | - | - | - | max5982 |
-| 03 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 03 KimJungHun (Raphaelkim96) | n/a | - | - | - | - | - | max5982 |
 | 04 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 05 ParkHyunKeun (parkhk994) | n/a | - | - | - | - | - | max5982 |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
