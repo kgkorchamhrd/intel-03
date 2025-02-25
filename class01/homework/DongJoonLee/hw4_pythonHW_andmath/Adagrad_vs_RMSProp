@@ -1,0 +1,128 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+np.random.seed(303)
+
+# Generate training data
+x_train = np.linspace(-1, 1, 51)
+f = lambda x: 0.5 * x + 1.0
+y_train = f(x_train) + 0.4 * np.random.rand(len(x_train))
+
+# Shuffle data
+shuffled_id = np.arange(len(x_train))
+np.random.shuffle(shuffled_id)
+x_train = x_train[shuffled_id]
+y_train = y_train[shuffled_id]
+
+plt.plot(x_train, y_train, 'o')
+plt.grid()
+plt.show()
+
+# Loss function and its gradient
+def loss(w, x_set, y_set):
+    N = len(x_set)
+    val = 0.0
+    for i in range(N):
+        val += 0.5 * (w[0] * x_set[i] + w[1] - y_set[i])**2
+    return val / N
+
+def loss_grad(w, x_set, y_set):
+    N = len(x_set)
+    grad = np.zeros_like(w)
+    for i in range(N):
+        error = w[0] * x_set[i] + w[1] - y_set[i]
+        grad += error * np.array([x_set[i], 1.0])
+    return grad / N
+
+# Function to generate batches
+def generate_batches(batch_size, features, labels):
+    assert len(features) == len(labels)
+    output_batches = []
+    sample_size = len(features)
+    for start_i in range(0, sample_size, batch_size):
+        end_i = start_i + batch_size
+        batch = [features[start_i:end_i], labels[start_i:end_i]]
+        output_batches.append(batch)
+    return output_batches
+
+# # Parameters
+# batch_size = 10
+# lr = 0.01
+# MaxEpochs = 51
+# alpha = 0.9  # Momentum coefficient
+
+
+#SGD
+batch_size = 10
+lr = 1.5
+MaxEpochs = 51
+
+#Adgard
+epsilon = 0.25
+delta = 1E-6
+
+# RMSProp
+rho = 0.9
+
+w0 = np.array([4.0, -1.0])
+r = np.zeros_like(w0)
+
+path_adagd = []
+
+for epoch in range(MaxEpochs):
+    if epoch % 10 == 0:
+        print(epoch, w0, loss(w0, x_train, y_train))
+    for x_batch, y_batch in generate_batches(batch_size, x_train, y_train):
+        path_adagd.append(w0)
+        grad = loss_grad(w0, x_batch, y_batch)
+        r = r + grad * grad
+        delw = -epsilon / (delta + np.sqrt(r)) * grad
+        w1 = w0 + delw
+        w0 = w1
+
+# RMSProp
+w0 = np.array([4.0, -1.0])
+r = np.zeros_like(w0)
+path_rmsprop = []
+for epoch in range(MaxEpochs):
+    if epoch % 10 == 0:
+        print(epoch, w0, loss(w0, x_train, y_train))
+    for x_batch, y_batch in generate_batches(batch_size, x_train, y_train):
+        path_rmsprop.append(w0.copy())
+        grad = loss_grad(w0, x_batch, y_batch)
+        # Correct RMSProp update: use an additive moving average
+        r = rho * r + (1 - rho) * (grad ** 2)
+        delw = -epsilon * grad / (np.sqrt(r + delta))
+        w0 = w0 + delw
+
+# Create a grid for contour plotting
+W0_vals = np.linspace(-2, 5, 101)
+W1_vals = np.linspace(-2, 5, 101)
+W0, W1 = np.meshgrid(W0_vals, W1_vals)
+LOSSW = np.zeros_like(W0)
+for i in range(W0.shape[0]):
+    for j in range(W0.shape[1]):
+        w_ij = np.array([W0[i, j], W1[i, j]])
+        LOSSW[i, j] = loss(w_ij, x_train, y_train)
+
+fig, ax = plt.subplots(figsize=(6,6))
+
+ax.contour(W0, W1, LOSSW, cmap=plt.cm.jet, 
+           levels=np.linspace(0, np.max(LOSSW.flatten()), 20))
+
+paths = path_adagd
+paths = np.array(np.matrix(paths).T)
+ax.quiver(paths[0, :-1], paths[1, :-1],
+          paths[0, 1:] - paths[0, :-1],
+          paths[1, 1:] - paths[1, :-1],
+          scale_units='xy', angles='xy', scale=1, color='k')
+
+paths = path_rmsprop
+paths = np.array(np.matrix(paths).T)
+ax.quiver(paths[0, :-1], paths[1, :-1],
+          paths[0, 1:] - paths[0, :-1],
+          paths[1, 1:] - paths[1, :-1],
+          scale_units='xy', angles='xy', scale=1, color='r')
+
+plt.legend(['Adagrad', 'RMSProp'])
+plt.show()
