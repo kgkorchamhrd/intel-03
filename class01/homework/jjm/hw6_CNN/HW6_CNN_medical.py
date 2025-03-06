@@ -51,7 +51,7 @@ a1.set_title('Normal')
 a2 = f.add_subplot(1, 2, 2)
 img_plot = plt.imshow(sic_load)
 a2.set_title('Pneumonia')
-plt.savefig('./src_img/ANN_PNEUMONIA_CNN_00_sample.png', dpi=300, bbox_inches='tight')
+plt.savefig('./src_img/CNN_PNEUMONIA_00_sample.png', dpi=300, bbox_inches='tight')
 plt.close()
 
 
@@ -93,7 +93,7 @@ cnn_model = model_fin.fit(training_set, steps_per_epoch = 163, epochs = 10,
 
 test_accu = model_fin.evaluate(test_set, steps = 624)
 
-model_fin.save('./models/PNEUMONIA_ANN.h5')
+model_fin.save('./models/PNEUMONIA_CNN.h5')
 print('The testing accuracy is :',test_accu[1]*100, '%')
 
 Y_pred = model_fin.predict(test_set, 100)
@@ -108,7 +108,7 @@ plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
 plt.legend(['Training set', 'Validation set'], loc='upper left')
 plt.show(block=False)
-plt.savefig('./src_img/ANN_PNEUMONIA_CNN_01_accuracy.png', dpi=300, bbox_inches='tight')
+plt.savefig('./src_img/CNN_PNEUMONIA_01_accuracy.png', dpi=300, bbox_inches='tight')
 plt.close()
 
 
@@ -119,7 +119,29 @@ plt.ylabel('Loss')
 plt.xlabel('Epoch')
 plt.legend(['Training set', 'Test set'], loc='upper left')
 plt.show(block=False)
-plt.savefig('./src_img/ANN_PNEUMONIA_CNN_02_LOSS.png', dpi=300, bbox_inches='tight')
+plt.savefig('./src_img/CNN_PNEUMONIA_02_LOSS.png', dpi=300, bbox_inches='tight')
 plt.close()
+
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+
+axes[0].plot(cnn_model.history['accuracy'])
+axes[0].plot(cnn_model.history['val_accuracy'])
+axes[0].set_title('Model Accuracy')
+axes[0].set_ylabel('Accuracy')
+axes[0].set_xlabel('Epoch')
+axes[0].legend(['Training set', 'Validation set'], loc='upper left')
+
+axes[1].plot(cnn_model.history['loss'])
+axes[1].plot(cnn_model.history['val_loss'])
+axes[1].set_title('Model Loss')
+axes[1].set_ylabel('Loss')
+axes[1].set_xlabel('Epoch')
+axes[1].legend(['Training set', 'Validation set'], loc='upper left')
+
+plt.tight_layout()
+
+plt.savefig('./src_img/CNN_PNEUMONIA_03_AccAndLoss.png', dpi=300, bbox_inches='tight')
+plt.show()
 
 
