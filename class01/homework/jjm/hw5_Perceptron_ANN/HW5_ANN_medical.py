@@ -106,7 +106,7 @@ plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
 plt.legend(['Training set', 'Validation set'], loc='upper left')
 plt.show(block=False)
-plt.savefig('./src_img/ANN_PNEUMONIA_01_ACCURACY.png', dpi=300, bbox_inches='tight')
+plt.savefig('./src_img/ANN_PNEUMONIA_01_accuracy.png', dpi=300, bbox_inches='tight')
 plt.close()
 
 
@@ -119,5 +119,28 @@ plt.legend(['Training set', 'Test set'], loc='upper left')
 plt.show(block=False)
 plt.savefig('./src_img/ANN_PNEUMONIA_02_LOSS.png', dpi=300, bbox_inches='tight')
 plt.close()
+
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+
+axes[0].plot(cnn_model.history['accuracy'])
+axes[0].plot(cnn_model.history['val_accuracy'])
+axes[0].set_title('Model Accuracy')
+axes[0].set_ylabel('Accuracy')
+axes[0].set_xlabel('Epoch')
+axes[0].legend(['Training set', 'Validation set'], loc='upper left')
+
+axes[1].plot(cnn_model.history['loss'])
+axes[1].plot(cnn_model.history['val_loss'])
+axes[1].set_title('Model Loss')
+axes[1].set_ylabel('Loss')
+axes[1].set_xlabel('Epoch')
+axes[1].legend(['Training set', 'Validation set'], loc='upper left')
+
+plt.tight_layout()
+
+plt.savefig('./src_img/ANN_PNEUMONIA_03_AccAndLoss.png', dpi=300, bbox_inches='tight')
+plt.show()
+
 
 
