@@ -39,19 +39,19 @@
 
 | 영문이름 (GitHub id)           | Team No | HW#3 | HW#4 | HW#5 | HW#6 | HW#7 | Reviewer |
 |-------------------------------|---------|------|------|------|------|------|----------|
-| 01 KimKeonHwi (vandaliaaa) | n/a | O | X | X | X | X | max5982 |
-| 02 KimGwanWoo  (KGW0128) | n/a | O | O| O | O | O | max5982 |
-| 03 KimJungHun (Raphaelkim96) | n/a | O | O | O | O | O | max5982 |
-| 04 ParkHyunKeun (parkhk994) | n/a | X | X | X | X | X | max5982 |
-| 05 DongJoonLee (cschuadj720) | n/a | O | O | O | O | O | max5982 |
-| 06 LeeHyeonJong (Lee8735) | n/a | O | O | X | X | X | max5982 |
-| 07 LeeHyoWon   (leehyowon98) | n/a | O | O | O | O | X | max5982 |
-| 08 JeongJiMin (chipmunk-tail) | n/a | O | O | O | O | O | max5982 |
-| 09 ParkWeonSeok (abcde) | n/a | O | O | X | X | X | max5982 |
-| 10 KangDongSu (buskingsue) | n/a | O | O | O | X | X | max5982 |
-| 11 JojJaeSang (jo5862) | n/a | O | O | X | X | X | max5982 |
-| 12 ChoiEunTaek (abcde) | n/a | O | O | X | X | x | mokiya |
-| 13 Yunseunggun (sgyun96) | n/a | O | O | x | X | x | max5982 |
+| 01 KimKeonHwi (vandaliaaa) | n/a | O | X | X | X | X | justinkimceo |
+| 02 KimGwanWoo  (KGW0128) | n/a | O | O| O | O | O | justinkimceo |
+| 03 KimJungHun (Raphaelkim96) | n/a | O | O | O | O | O | justinkimceo |
+| 04 ParkHyunKeun (parkhk994) | n/a | X | X | X | X | X | justinkimceo |
+| 05 DongJoonLee (cschuadj720) | n/a | O | O | O | O | O | justinkimceo |
+| 06 LeeHyeonJong (Lee8735) | n/a | O | O | X | X | X | justinkimceo |
+| 07 LeeHyoWon   (leehyowon98) | n/a | O | O | O | O | X | justinkimceo |
+| 08 JeongJiMin (chipmunk-tail) | n/a | O | O | O | O | O | justinkimceo |
+| 09 ParkWeonSeok (abcde) | n/a | O | O | X | X | X | justinkimceo |
+| 10 KangDongSu (buskingsue) | n/a | O | O | O | X | X | justinkimceo |
+| 11 JojJaeSang (jo5862) | n/a | O | O | X | X | X | justinkimceo |
+| 12 ChoiEunTaek (abcde) | n/a | O | O | X | X | x | justinkimceo |
+| 13 Yunseunggun (sgyun96) | n/a | O | O | x | X | x | justinkimceo |
 
 
 ### Mini Projects
