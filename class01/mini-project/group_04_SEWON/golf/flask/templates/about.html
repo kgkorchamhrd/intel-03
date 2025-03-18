@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask About</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+            position: relative;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 240px);
+            grid-gap: 40px;
+            row-gap: 80px;
+            justify-content: center;
+            margin-top: -20px;
+        }
+        .frame-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .frame {
+            background-color: white;
+            border: 5px solid #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .frame img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        .frame-text {
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        /* 동영상 업로드 버튼 스타일 */
+        .upload-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s;
+        }
+        .upload-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% set labels = ["Address :", "Toe-up :", "Mid-backswing :", "Top :",
+                         "Mid-downswing :", "Impact :",
+                         "Mid-follow-through :", "Finish :"] %}
+
+        {% for fname, event_idx, conf_val in images_info %}
+        <div class="frame-wrapper">
+            <div class="frame">
+                <img src="{{ url_for('static', filename='events/' + fname) }}" alt="{{ fname }}">
+            </div>
+            <div class="frame-text">
+                {{ labels[event_idx] }} {{ conf_val }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- 동영상 업로드 버튼 -->
+    <button class="upload-btn" onclick="window.location.href='{{ url_for('index') }}'">
+        처음으로
+    </button>
+
+</body>
+</html>

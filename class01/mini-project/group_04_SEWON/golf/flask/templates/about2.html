@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask About</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: grid;
+            /* 필요 시 고정 크기를 주지 않고, 여러 열을 유연하게 분할하려면 아래 예시처럼 사용 가능:
+               grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); */
+            grid-template-columns: repeat(4, 240px);
+            grid-gap: 40px;
+            row-gap: 80px;
+            justify-content: center;
+            margin-top: -20px;
+        }
+        .frame-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .frame {
+            /* 고정 너비/높이 제거 -> 내부 이미지 크기에 맞춰 자동 확장 */
+            background-color: white;
+            border: 5px solid #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .frame img {
+            /* 부모 요소를 넘치지 않도록 최대 너비는 100%, 세로 비율 자동 유지 */
+            max-width: 100%;
+            height: auto;
+            object-fit: contain; /* 필요 시 이미지 비율 유지 */
+        }
+        .frame-text {
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% set labels = ["Address :", "Toe-up :", "Mid-backswing :", "Top :",
+                         "Mid-downswing :", "Impact :",
+                         "Mid-follow-through :", "Finish :"] %}
+
+        {% for fname, event_idx, conf_val in images_info %}
+        <div class="frame-wrapper">
+            <div class="frame">
+                <img src="{{ url_for('static', filename='events/' + fname) }}" alt="{{ fname }}">
+            </div>
+            <div class="frame-text">
+                {{ labels[event_idx] }} {{ conf_val }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask About</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 240px);
+            grid-gap: 40px;
+            row-gap: 80px;
+            justify-content: center;
+            margin-top: -20px;
+        }
+        .frame-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 가운데 정렬 */
+            text-align: center;
+        }
+        .frame { 
+            width: 200px;
+            height: 320px;
+            background-color: white;
+            border: 5px solid #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .frame img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .frame-text {
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       {% set labels = ["Address :", "Toe-up :", "Mid-backswing :", "Top :", 
+                        "Mid-downswing :", "Impact :", 
+                        "Mid-follow-through :", "Finish :"] %}
+        
+        {% for fname, event_idx, conf_val in images_info %}
+        <div class="frame-wrapper">
+            <div class="frame">
+                
+                <img src="{{ url_for('static', filename='events/' + fname) }}" alt="{{ fname }}">
+            </div>
+            <div class="frame-text">
+                {{ labels[event_idx] }} {{ conf_val }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+
