@@ -102,3 +102,19 @@ $ find ./ -iname *.bin|xargs ls -l
 
 * Project Github : https://github.com/cschuadj721/SigakDoumi
 * 발표자료 : TBA
+
+## Team name : 재활로봇(팀MAX)
+<프로젝트 요약>
+기존 PCM (CKC) 다리 재활 운동 기구의 한계를 개선하여 AC 모터 기반의 액티브(Active) 및 패시브(Passive) 모드를 지원하는 스마트 재활 기구 개발. AI 모방학습(BC) 와 강화학습(RL)을 활용해 사용자 맞춤형 운동 보조와 데이터 기반 재활 관리를 제공
+
+* Members
+  | Name | Role |
+  |----|----|
+  | 안세환 | Project manager, 프로젝트를 총괄, 코드 병합 |
+  | 송선대 | Project manager, 마일스톤을 생성하고 프로젝트 이슈 진행상황을 관리한다. |
+  | 김관우 | UI design, 사용자 인터페이스를 정의하고 구현한다. |
+  | 김정헌 | AI modeling, 원하는 결과가 나오도록 AI model을 선택, data 수집, training을 수행한다. |
+  | 최은택 | Architect, 프로젝트의 component를 구성하고 상위 디자인을 책임진다. |
+
+* Project Github : 
+* 발표자료 : TBA
