@@ -53,8 +53,8 @@
 | 12 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 13 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 15 ChoiEunTaek (abcde) | n/a | - | - | - | - | - | max5982 |
-| 16 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 15 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 16 ChoiEunTaek (abcde) | n/a | - | - | - | - | - | max5982 |
 | 17 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 18 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 19 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
