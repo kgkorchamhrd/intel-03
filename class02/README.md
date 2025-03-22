@@ -48,13 +48,5 @@
 | 13 KangDongSu (buskingsue) | n/a | - | - | - | - | litcoder |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 15 JoJaeSang (jo5862) | n/a | - | - | - | - | litcoder |
-| 16 ChoiEunTaek (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 17 Yunseunggun (sgyun96) | n/a | - | - | - | - | litcoder |
-| 18 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 19 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 20 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 21 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 22 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 23 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 24 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 25 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 16 ChoiEunTaek (abcde) | n/a | O | - | - | - | jerry-jaeseong-lee |
+| 17 Yunseunggun (sgyun96) | n/a | - | - | O | - | litcoder |
