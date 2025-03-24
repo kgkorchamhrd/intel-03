@@ -1,0 +1,6 @@
+Flask
+pillow
+psutil
+requests
+torch
+transformers
