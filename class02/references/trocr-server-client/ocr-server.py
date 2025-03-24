@@ -21,10 +21,10 @@ USER_ID = "team01"
 USER_PW = "1234"
 
 
-def free_port(port=PORT_ID):
+def free_port(port=PORT_N):
     """
     지정된 포트를 사용 중인 프로세스를 종료하여 포트를 해제하는 함수.
-    :param port: 해제할 포트 번호 (기본값: PORT_ID)
+    :param port: 해제할 포트 번호 (기본값: PORT_N)
     """
     for proc in psutil.process_iter(['pid']):
         try:
@@ -97,5 +97,5 @@ def ocr():
 if __name__ == '__main__':
     # 서버 시작 전 지정된 포트를 해제
     free_port(PORT_N)
-    app.run(host=SERVER_IP, port=PORT_ID, debug=False, use_reloader=False)
+    app.run(host=SERVER_IP, port=PORT_N, debug=False, use_reloader=False)
 
