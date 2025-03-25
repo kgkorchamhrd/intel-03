@@ -31,39 +31,28 @@
 
 ### 제출현황
 
-* HW#1 :
-* HW#2 :
-* HW#3 :
-* HW#4 :
-* HW#5 :
+* HW#3 : [[Class01 HW#3] Github PR 실습](https://github.com/kgkorchamhrd/intel-03/issues/3)
+* HW#4 : [[Class01 HW#4] python 과제 및 math 실습](https://github.com/kgkorchamhrd/intel-03/issues/4)
+* HW#5 : [[Class01 HW#5] Perceptron & ANN 실습](https://github.com/kgkorchamhrd/intel-03/issues/5)
+* HW#6 : [[Class01 HW#6] CNN 실습](https://github.com/kgkorchamhrd/intel-03/issues/6)
+* HW#7 : [[Class01 HW#7] RNN LSTM GRU 실습](https://github.com/kgkorchamhrd/intel-03/issues/7)
 
-| 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | HW#4 | HW#5 | Reviewer |
+| 영문이름 (GitHub id)           | Team No | HW#3 | HW#4 | HW#5 | HW#6 | HW#7 | Reviewer |
 |-------------------------------|---------|------|------|------|------|------|----------|
-| 01 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 02 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 03 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 04 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 05 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 06 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 07 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 08 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 09 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 10 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 11 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 12 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 13 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 15 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 16 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 17 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 18 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 19 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 20 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 21 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 22 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 23 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 24 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 25 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 01 KimKeonHwi (vandaliaaa) | n/a | O | X | X | X | X | justinkimceo |
+| 02 KimGwanWoo  (KGW0128) | n/a | O | O| O | O | O | justinkimceo |
+| 03 KimJungHun (Raphaelkim96) | n/a | O | O | O | O | O | justinkimceo |
+| 04 ParkHyunKeun (parkhk994) | n/a | X | X | X | X | X | justinkimceo |
+| 05 DongJoonLee (cschuadj720) | n/a | O | O | O | O | O | justinkimceo |
+| 06 LeeHyeonJong (Lee8735) | n/a | O | O | X | X | X | justinkimceo |
+| 07 LeeHyoWon   (leehyowon98) | n/a | O | O | O | O | X | justinkimceo |
+| 08 JeongJiMin (chipmunk-tail) | n/a | O | O | O | O | O | justinkimceo |
+| 09 ParkWeonSeok (abcde) | n/a | O | O | X | X | X | justinkimceo |
+| 10 KangDongSu (buskingsue) | n/a | O | O | O | X | X | justinkimceo |
+| 11 JojJaeSang (jo5862) | n/a | O | O | X | X | X | justinkimceo |
+| 12 ChoiEunTaek (abcde) | n/a | O | O | X | X | x | justinkimceo |
+| 13 Yunseunggun (sgyun96) | n/a | O | O | x | X | x | justinkimceo |
+
 
 ### Mini Projects
 
