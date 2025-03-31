@@ -119,7 +119,7 @@ $ find ./ -iname *.bin|xargs ls -l
 * Project Github : 
 * 발표자료 : TBA
 
-### Team name : 잘걷는 도비
+## Team name : 잘걷는 도비
 
 신발에 어레이 FSR 센서를 이용해 동적 족저압을 측정하여 CRNN 레이어를 활용한 딥러닝 보행이상 검출 신발 제작 프로젝트
 
@@ -131,4 +131,5 @@ $ find ./ -iname *.bin|xargs ls -l
   | 이효원 | AI modeling, Embedded Engineer, 임베디드 기기 설계, data 수집, training을 수행한다. |
   | 조재상 | Project manager, UI design, 프로젝트 Git릏 관리하고, 사용자 인터페이스를 구현한다. |
 * Project Github : https://github.com/jo5862/intel03_team3_foot 
-* 발표자료 : TBA
+* 발표자료 : https://github.com/jo5862/intel03_team3_foot/tree/main/Ppt
+
