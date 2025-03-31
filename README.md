@@ -118,7 +118,7 @@ $ find ./ -iname *.bin|xargs ls -l
   | 김정헌 | AI modeling, 원하는 결과가 나오도록 AI model을 선택, data 수집, training을 수행한다. |
   | 최은택 | Architect, 프로젝트의 component를 구성하고 상위 디자인을 책임진다. |
 
-* Project Github : 
+* Project Github : https://github.com/Sehwani2/AI_CPMRehab
 * 발표자료 : TBA
 
 ## Team name : 잘걷는 도비
