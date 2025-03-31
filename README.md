@@ -131,5 +131,6 @@ $ find ./ -iname *.bin|xargs ls -l
   | 이효원 | AI modeling, Embedded Engineer, 임베디드 기기 설계, data 수집, training을 수행한다. |
   | 조재상 | Project manager, UI design, 프로젝트 Git릏 관리하고, 사용자 인터페이스를 구현한다. |
 * Project Github : https://github.com/jo5862/intel03_team3_foot 
-* 발표자료 : https://github.com/jo5862/intel03_team3_foot/tree/main/Ppt
+* 발표자료 : https://github.com/jo5862/intel03_team3_foot/blob/main/Ppt/team03.pdf
+
 
