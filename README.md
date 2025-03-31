@@ -119,7 +119,7 @@ $ find ./ -iname *.bin|xargs ls -l
   | 최은택 | Architect, 프로젝트의 component를 구성하고 상위 디자인을 책임진다. |
 
 * Project Github : https://github.com/Sehwani2/AI_CPMRehab 
-* 발표자료 : TB
+* 발표자료 : https://intel03-team02.my.canva.site/
 
 ## Team name : 잘걷는 도비
 
